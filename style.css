@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(160, 160, 253, 0.684);
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    border: 1px solid black;
+    overflow:auto;
+    box-shadow: 1px 2px 3px 4px rgba(124, 124, 124, 0.4);
+
+}
+
+div h3{
+    font-family:cursive;
+    font-size: 1.5rem;
+    text-align: center; 
+    padding: 1rem;
+}
+
+#joke{
+    text-align: center;
+    margin: 4rem;
+}
+
+.btnParent{
+    padding: 2rem;
+    text-align: center;
+}
+#jokeBtn{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(221, 221, 255, 0.684);
+}
+#jokeBtn:hover{
+    background: rgba(160, 160, 253, 0.684);
+    cursor:pointer;
+}
